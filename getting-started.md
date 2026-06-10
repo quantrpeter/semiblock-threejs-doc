@@ -2,13 +2,13 @@
 
 This guide walks you through opening the editor, building your first live 3D scene, using the three toolbox categories, loading a GLTF model, and saving or exporting your work. Everything described here matches the implementation in `newblock-server/blockly-threeJS`.
 
+![](img/overview.png){width=100%}
+
 ## 1. Opening the Editor
 
 The Three.js editor is embedded inside the larger NewBlock / SemiBlock web application (Laravel + Vite frontend). It is served as a pre-built webpack library from:
 
-```
-public/blockly-threeJS/build-production/
-```
+![](img/editor.png){width=100%}
 
 Typical integration points expose a button or menu item labeled "Three.js", "3D Blocks", or similar that loads the Blockly canvas, output pane, and `#threeJSDiv` preview.
 

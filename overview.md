@@ -4,6 +4,8 @@ SemiBlock Three.js is a visual, block-based editor for building interactive 3D s
 
 The editor generates executable Three.js code on the fly and immediately evaluates it, giving you a live 3D preview as you build.
 
+![](img/editor.png){width=100%}
+
 ## Key Features
 
 - **Live 3D Preview**: Every change to the workspace triggers code generation and `eval()` into the `#threeJSDiv` preview pane. See results instantly.
